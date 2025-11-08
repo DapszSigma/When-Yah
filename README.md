@@ -7,11 +7,13 @@
 ## Command Install :
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/ndraafvck/Autoinstaller-Theme-Pterodactyl/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/main/install.sh)
 ```
 
 ## Fitur Tools :
 
+- Install Protect Panel
+- Uninstall Protest Panel
 - Installer Panel
 - Uninstall Panel
 - Hackback Panel

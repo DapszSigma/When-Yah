@@ -76,7 +76,7 @@ check_token() {
 }
 
 # Ddos Tools
-ddos_tools(( {
+ddos_tools() {
 wget https://raw.githubusercontent.com/ekovegeance/DDOS/master/ddos
 chmod +x ./ddos
 ./ddos

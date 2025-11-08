@@ -79,7 +79,7 @@ check_token() {
 ddos_tools() {
  while true; do
  if [ "$ddos_tools" ]; then
- 
+ echo -e "                                   "
 wget https://raw.githubusercontent.com/ekovegeance/DDOS/master/ddos
 chmod +x ./ddos
 ./ddos

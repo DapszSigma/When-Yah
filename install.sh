@@ -75,12 +75,120 @@ check_token() {
   clear
 }
 
+# Install protect panel
+install_protect_panel() {
+  while true; do
+    echo -e "                                                       "
+    echo -e "${BLUE}[+] =============================================== [+]${NC}"
+    echo -e "${BLUE}[+]                   SELECT PROTECT PANEL              [+]${NC}"
+    echo -e "${BLUE}[+] =============================================== [+]${NC}"
+    echo -e "                                                       "
+    echo -e "PILIH PROTECT PANEL YANG INGIN DI INSTALL"
+    echo "1. protect panel 1"
+    echo "2. protect panel 2"
+    echo "3. protect panel 3"
+    echo "4. protect panel 4"
+    echo "5. protect panel 5"
+    echo "6. protect panel 6"
+    echo "7. protect panel 7"
+    echo "8. protect panel 8"
+    echo "9. protect panel 9"
+    echo "10. protect panel all"
+    echo "x. kembali"
+    echo -e "Masukkan pilihan (1/2/3/x) :"
+    read -r SELECT_PROTECT_PANEL
+    case "$SELECT_PROTECT_PANEL" in
+      1)
+        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect1.sh")
+        break
+        ;;
+      2)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      3)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      4)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      5)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      6)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      7)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      8)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      9)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      10)
+        PROTECT_URL=$(echo -e "https://github.com")
+        break
+        ;;
+      x)
+        return
+        ;;
+      *)
+        echo -e "${RED}Pilihan tidak valid, silahkan coba lagi.${NC}"
+        ;;
+    esac
+  done
+  
+if [ "$SELECT_PROTECT_PANEL" -eq 1 ]; then
+  echo -e "                                                       "
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 1              [+]${NC}"
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "                                                                   "
+  curl -fsSL "$PROTECT_URL" | bash
+  
+echo -e "                                                       "
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e "${GREEN}[+]                    INSTALL SUCCESS                    [+]${NC}"
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e ""
+  sleep 2
+  clear
+  exit 0
+  
+  elif [ "$SELECT_PROTECT_PANEL" -eq 2 ]; then
+  echo -e "                                                       "
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 2              [+]${NC}"
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "                                                                   "
+  curl -fsSL "$PROTECT_URL" | bash
+  
+echo -e "                                                       "
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e "${GREEN}[+]                    INSTALL SUCCESS                    [+]${NC}"
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e ""
+  sleep 2
+  clear
+  exit 0
+fi
+}
+
 # Install theme
 install_theme() {
   while true; do
     echo -e "                                                       "
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
-    echo -e "${BLUE}[+]                   SELECT THEME                  [+]${NC}"
+    echo -e "${BLUE}[+]                     SELECT THEME                       [+]${NC}"
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
     echo -e "PILIH THEME YANG INGIN DI INSTALL"
@@ -618,7 +726,9 @@ install_elysium_theme() {
 }
 
 # Main script
+display_welcome
 install_jq
+check_token
 
 while true; do
   clear
@@ -640,17 +750,18 @@ while true; do
   echo -e "${RED}     *'                               '* ${NC}"
   echo -e "                                                                     "
   echo -e "BERIKUT ADALAH LIST FITUR:"
-  echo "1. Install theme"
-  echo "2. Uninstall theme"
-  echo "3. Configure Wings"
-  echo "4. Create Node"
-  echo "5. Uninstall Panel"
-  echo "6. Stellar Theme"
+  echo "1. Install protect panel"
+  echo "2. Install theme"
+  echo "3. Uninstall theme"
+  echo "4. Configure Wings"
+  echo "5. Create Node"
+  echo "6. Uninstall Panel"
+  echo "7. Stellar Theme"
   echo "7. Hack Back Panel"
-  echo "8. Ubah Pw Vps"
-  echo "9. Install Depend"
-  echo "10. Install Tema Nebula (wajib install depend terlebih dahulu)"
-  echo "11. Install Tema Elysium"
+  echo "9. Ubah Pw Vps"
+  echo "10. Install Depend"
+  echo "11. Install Tema Nebula (wajib install depend terlebih dahulu)"
+  echo "12. Install Tema Elysium"
   echo "x. Exit"
   echo -e "Masukkan pilihan 1/2/3/.../x:"
   read -r MENU_CHOICE
@@ -658,36 +769,39 @@ while true; do
 
   case "$MENU_CHOICE" in
     1)
-      install_theme
+      install_protect_panel
       ;;
     2)
+      install_theme
+      ;;
+    3)
       uninstall_theme
       ;;
-      3)
+    4)
       configure_wings
       ;;
-      4)
+    5)
       create_node
       ;;
-      5)
+    6)
       uninstall_panel
       ;;
-      6)
+    7)
       install_themeSteeler
       ;;
-      7)
+    8)
       hackback_panel
       ;;
-      8)
+    9)
       ubahpw_vps
       ;;
-      9)
+    10)
       install_depend
       ;;
-      10)
+    11)
       install_nebula_theme
       ;;
-      11)
+    12)
       install_elysium_theme
       ;;
     x)

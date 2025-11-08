@@ -314,7 +314,15 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 10 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL ALL              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect1.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect2.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect3.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect4.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect5.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect6.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect7.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect8.sh" | bash
+  curl -fsSL "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect9.sh" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"

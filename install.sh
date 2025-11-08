@@ -99,51 +99,51 @@ install_protect_panel() {
     read -r SELECT_PROTECT_PANEL
     case "$SELECT_PROTECT_PANEL" in
       1)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect1.sh")
+        PROTECT_URL1=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect1.sh")
         break
         ;;
       2)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect2.sh")
+        PROTECT_URL2=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect2.sh")
         break
         ;;
       3)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect3.sh")
+        PROTECT_URL3=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect3.sh")
         break
         ;;
       4)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect4.sh")
+        PROTECT_UR4=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect4.sh")
         break
         ;;
       5)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect5.sh")
+        PROTECT_URL5=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect5.sh")
         break
         ;;
       6)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect6.sh")
+        PROTECT_URL6=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect6.sh")
         break
         ;;
       7)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect7.sh")
+        PROTECT_URL7=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect7.sh")
         break
         ;;
       8)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect8.sh")
+        PROTECT_URL8=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect8.sh")
         break
         ;;
       9)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect9.sh")
+        PROTECT_URL9=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect9.sh")
         break
         ;;
       10)
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect1.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect2.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect3.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect4.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect5.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect6.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect7.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect8.sh")
-        PROTECT_URL=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect9.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect1.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect2.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect3.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect4.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect5.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect6.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect7.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect8.sh")
+        PROTECT_URL10=$(echo -e "https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/refs/heads/main/installprotect9.sh")
         break
         ;;
       x)
@@ -161,7 +161,7 @@ if [ "$SELECT_PROTECT_PANEL" -eq 1 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 1              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL1" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -178,7 +178,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 2 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 2              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL2" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -195,7 +195,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 3 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 3              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL3" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -212,7 +212,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 4 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 4              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL4" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -229,7 +229,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 5 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 5              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL5" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -246,7 +246,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 6 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 6              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL6" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -263,7 +263,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 7 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 7              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL7" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -280,7 +280,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 8 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 8              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL8" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -297,7 +297,7 @@ elif [ "$SELECT_PROTECT_PANEL" -eq 9 ]; then
   echo -e "${BLUE}[+]               INSTALASI PROTECT PANEL 9              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                                   "
-  curl -fsSL "$PROTECT_URL" | bash
+  curl -fsSL "$PROTECT_URL9" | bash
   
 echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"

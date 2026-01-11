@@ -7,7 +7,7 @@
 ## Command Install :
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/DapszSigma/Auto-Installer-Theme-Pterodactyl/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/DapszSigma/When-Yah/main/install.sh)
 ```
 
 ## Fitur Tools :

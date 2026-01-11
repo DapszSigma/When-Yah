@@ -7,7 +7,7 @@
 ## Command Install :
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/ndraafvck/Auto-Installer-Theme-Pterodactyl/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/DapszSigma/Auto-Installer-Theme-Pterodactyl/main/install.sh)
 ```
 
 ## Fitur Tools :
@@ -38,4 +38,4 @@ _\* di atas adalah os yang saya test, selebihnya bisa di test sendiri._
 
 
 ## Credits 
-- Github: [ NDRAAFVCK ](https://github.com/ndraafvck)
+- Github: [ Dapsz-ID](https://github.com/Dapsz-ID)
